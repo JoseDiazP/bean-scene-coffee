@@ -308,7 +308,6 @@ h1 {
   position: absolute;
 }
 
-
 /* Image styles */
 .flip-hor {
 	-webkit-transform: scaleX(-1);
@@ -420,5 +419,24 @@ h1 {
 	.benefit-description {
 		font-size: 16px;
 	}
+
+  .order-now {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.order-now .text {
+  margin: 20px 10px;
+}
+
+.order-now .images {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 }
 
