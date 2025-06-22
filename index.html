@@ -10,9 +10,9 @@
 	</head>
 	<body>
 		<header>
-			<div class="top_header">
+			<div class="top-header">
 				<nav>
-                    <h1 class="stylish">Bean Scene</h1>
+					<h1 class="stylish">Bean Scene</h1>
 					<ul class="navigation">
 						<li><a href="/"> Home </a></li>
 						<li><a href="/"> Menu </a></li>
@@ -22,25 +22,25 @@
 
 					<ul class="login">
 						<li><a href="#"> Sign In</a></li>
-						<li><button class="round_button">Sign Up</button></li>
+						<li><button>Sign Up</button></li>
 					</ul>
 				</nav>
 			</div>
 
-			<div class="bottom_header">
+			<div class="bottom-header">
 				<p>
 					We’ve got your morning covered with<br /><span class="stylish dropcap">Coffee</span><br />It is best
 					to start your day with a cup of coffee. Discover the best flavours coffee you will ever have. We
 					provide the best for our customers.
 				</p>
-				<button class="round_button">Order Now</button>
+				<button>Order Now</button>
 			</div>
 		</header>
 
 		<section class="presentation">
 			<div class="discover">
 				<div class="text">
-					<h2>Discover the best coffee</h2>
+					<h2 class="coffee-text">Discover the best coffee</h2>
 					<p>
 						Bean Scene is a coffee shop that provides you with quality coffee that helps boost your
 						productivity and helps build your mood. Having a cup of coffee is good, but having a cup of real
@@ -49,26 +49,87 @@
 					</p>
 					<button>Learn More</button>
 				</div>
-
-				<div class="images">
-					<img src="" alt="" />
-				</div>
+				<img src="assets/beans-cup.jpg" width="523" height="396" alt="" />
+			</div>
+			<div id="splash1" class="splash-left flip-vert">
+				<img src="assets/coffee-blast-min.png" width="450" height="245" alt="" />
 			</div>
 			<div class="coffee-blends">
-				<h2>Enjoy a new blend of coffee style</h2>
+				<h2 class="coffee-text">Enjoy a new blend of coffee style</h2>
 				<p>Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
 				<div class="exhibitor">
-					<!-- INCLUDE COFFEE SELECTION -->
+					<div class="coffee-container">
+						<div class="blend-container">
+							<img src="assets/blends/capuccino-min.png" width="220" height="200" alt="Capuccino cup" />
+							<p class="coffee-text blend-name">Capuccino</p>
+							<p class="proportion-blend">Coffee 50% | Milk 50%</p>
+							<p class="coffee-text price">$8.50</p>
+						</div>
+						<button>Order Now</button>
+					</div>
+					<div class="coffee-container">
+						<div class="blend-container">
+							<img src="assets/blends/chai-latte-min.png" width="220" height="200" alt="Chai Latte cup" />
+							<p class="coffee-text blend-name">Chai Latte</p>
+							<p class="proportion-blend">Coffee 50% | Milk 50%</p>
+							<p class="coffee-text price">$8.50</p>
+						</div>
+						<button>Order Now</button>
+					</div>
+					<div class="coffee-container">
+						<div class="blend-container">
+							<img src="assets/blends/macchiato-min.png" width="220" height="200" alt="Macchiato cup" />
+							<p class="coffee-text blend-name">Macchiato</p>
+							<p class="proportion-blend">Coffee 50% | Milk 50%</p>
+							<p class="coffee-text price">$8.50</p>
+						</div>
+						<button>Order Now</button>
+					</div>
+					<div class="coffee-container">
+						<div class="blend-container">
+							<img src="assets/blends/expresso-min.png" width="220" height="200" alt="Expresso cup" />
+							<p class="coffee-text blend-name">Expresso</p>
+							<p class="proportion-blend">Coffee 50% | Milk 50%</p>
+							<p class="coffee-text price">$8.50</p>
+						</div>
+						<button>Order Now</button>
+					</div>
 				</div>
 			</div>
 			<div class="benefits">
-				<h2>Why are we different?</h2>
-				<p>We don’t just make your coffee, we make your day!</p>
+				<div class="benefits-intro">
+					<div class="benefits-text">
+						<h2 class="coffee-text">Why are we different?</h2>
+						<p>We don’t just make your coffee, we make your day!</p>
+					</div>
+                    <div class="splash-right flip-vert-hor">
+						<img src="assets/coffee-blast-min.png" width="450" height="245" alt="" />
+					</div>
+				</div>
 				<div class="exhibitor">
-					<!-- INCLUDE COFFEE BRAND BENEFITS -->
+					<div class="benefit-container">
+						<img src="assets/logo/coffee-beans-min.png" width="88" height="88" alt="" />
+						<p class="coffee-text benefit-title">Supreme Beans</p>
+						<p class="benefit-description">Beans that provides great taste</p>
+					</div>
+					<div class="benefit-container">
+						<img src="assets/logo/badge-min.png" width="88" height="88" alt="" />
+						<p class="coffee-text benefit-title">High Quality</p>
+						<p class="benefit-description">We provide the highest quality</p>
+					</div>
+					<div class="benefit-container">
+						<img src="assets/logo/coffee-cup-min.png" width="88" height="88" alt="" />
+						<p class="coffee-text benefit-title">Extraordinary</p>
+						<p class="benefit-description">Coffee like you have never tasted</p>
+					</div>
+					<div class="benefit-container">
+						<img src="assets/logo/best-price-min.png" width="88" height="88" alt="" />
+						<p class="coffee-text benefit-title">Affordable Price</p>
+						<p class="benefit-description">Our Coffee prices are easy to afford</p>
+					</div>
 				</div>
 				<p>Great ideas start with great coffee, Lets help you achieve that</p>
-				<h3>Get started today.</h3>
+				<h3 class="coffee-text">Get started today.</h3>
 				<button>Join Us</button>
 			</div>
 		</section>
@@ -86,7 +147,7 @@
 		</section>
 
 		<section class="feedback">
-			<h2>Our coffee perfection feedback</h2>
+			<h2 class="coffee-text">Our coffee perfection feedback</h2>
 			<p>Our customers has amazing things to say about us</p>
 			<div class="people-feedback">
 				<button></button>
