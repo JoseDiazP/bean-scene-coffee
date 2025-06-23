@@ -146,14 +146,6 @@ h1 {
   position: relative;
 }
 
-.splash-left {
-	align-items: flex-start;
-}
-
-.splash-right {
-	align-items: flex-end;
-}
-
 .discover h2,
 .coffee-blends h2,
 .benefits h2,
@@ -387,6 +379,9 @@ h1 {
 	z-index: 1;
 }
 
+.author-title {
+  font-size: 20px;
+}
 
 
 
@@ -540,4 +535,39 @@ h1 {
 		justify-content: center;
 		margin-top: 20px;
 	}
+
+  .people-feedback {
+    flex-direction: row; /* Change to row to keep buttons side-by-side */
+    justify-content: space-between; /* Ensure buttons are spaced apart */
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .feedback-container {
+    padding: 60px 20px 40px 20px;
+    margin: 20px 0;
+  }
+
+  .quote {
+    font-size: 100px;
+    top: 5px;
+    left: 10px;
+  }
+
+  .feedback-text {
+    font-size: 16px;
+  }
+
+  .people-feedback button {
+    padding: 10px 20px;
+    margin: 10px; /* Add margin to provide space around buttons */
+    flex: 1; /* Allow buttons to take equal space */
+    max-width: 48%; /* Set a max-width to prevent them from being too wide */
+  }
+
+  
+
+  .author-title {
+    font-size: 16px;
+  }
 }
