@@ -384,6 +384,61 @@ h1 {
 }
 
 
+.suscribe {
+  background-image: linear-gradient(0, rgb(96, 56, 9, 0.7), rgb(96, 56, 9, 0.7)),
+		url(assets/background/background-coffee.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  text-align: center;
+}
+
+.suscribe h2,
+.suscribe p {
+  color: white;
+}
+
+.suscribe h2 {
+  font-size: 54px;
+  padding-top: 40px;
+  margin-top: 20px;
+}
+
+.suscribe p {
+  font-size: 18px;
+  padding-top: 0;
+  margin-top: 0px;
+}
+
+.suscribe button,
+.suscribe input {
+  height: 50px;
+}
+
+.suscribe button {
+  color: var(--coffee-color);
+  border-radius: 0 5px 5px 0;
+}
+
+.suscribe form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+}
+
+#suscribe-form input {
+  padding: 0 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  box-sizing: content-box;
+  outline: none;
+  width: 100%;
+  flex: 0.3;
+  font-family: inherit;
+}
+
 
 
 /* Image styles */
@@ -564,8 +619,6 @@ h1 {
     flex: 1; /* Allow buttons to take equal space */
     max-width: 48%; /* Set a max-width to prevent them from being too wide */
   }
-
-  
 
   .author-title {
     font-size: 16px;
