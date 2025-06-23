@@ -677,4 +677,46 @@ footer {
 	.author-title {
 		font-size: 16px;
 	}
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 20px;
+    text-align: center;
+    background-position: bottom;
+  }
+
+  .information {
+    margin: 20px 0;
+    padding: 0;
+    flex-basis: auto;
+  }
+
+  .information h3 {
+    font-size: 32px;
+  }
+
+  .information p {
+    font-size: 13px;
+  }
+
+  .socials {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+  }
+
+  .socials ul {
+    margin: 0;
+    padding: 0;
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .socials ul li {
+    margin: 10px 0;
+    word-break: break-word;
+    white-space: normal;
+  }
 }
