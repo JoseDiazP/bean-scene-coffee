@@ -8,6 +8,14 @@
 }
 
 /* General styles to all page*/
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 body {
 	font-family: 'Playfair Display';
@@ -188,7 +196,7 @@ h1 {
 .exhibitor {
 	display: flex;
 	flex-direction: row;
-	justify-content: stretch;
+	justify-content: center;
 	gap: 20px;
 	margin: 0 10%;
 	flex-wrap: wrap;
@@ -542,6 +550,7 @@ footer {
 	bottom: 0;
 }
 
+
 /* Responsiveness styles*/
 
 @media (max-width: 768px) {
@@ -615,7 +624,7 @@ footer {
 	.exhibitor {
 		flex-direction: column;
 		align-items: center;
-		margin: 0 20px;
+		margin: 0 5%;
 	}
 
 	.benefits-intro {
