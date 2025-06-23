@@ -143,6 +143,7 @@ h1 {
 	justify-content: center;
 	align-items: stretch;
 	align-content: center;
+  position: relative;
 }
 
 .splash-left {
@@ -165,16 +166,17 @@ h1 {
 	justify-content: space-evenly;
 	align-items: center;
 	text-align: left;
-	margin: 40px 20px;
+	margin: 40px 0;
+  position: relative;
 }
 
 .discover .text {
-	margin-right: 50px;
+	margin: 0 40px;
 	max-width: 750px;
 	padding: 20px;
 }
 
-.discover img {
+.discover .images img {
 	max-width: 100%; /* Make the image responsive */
 	height: auto; /* Maintain aspect ratio */
 }
@@ -316,6 +318,7 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+  position: relative;
 }
 
 .feedback-intro {
@@ -386,6 +389,8 @@ h1 {
 
 
 
+
+
 /* Image styles */
 .flip-hor {
 	-webkit-transform: scaleX(-1);
@@ -408,9 +413,29 @@ h1 {
 	transform: scale(-1, -1);
 }
 
+#splash1 {
+  position: absolute;
+  left: 0;
+  bottom: -32%;
+}
+
 #splash2 {
 	position: absolute;
 	right: 0;
+}
+
+#splash3 {
+  align-self: flex-end;
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+}
+
+#splash4 {
+  align-self: flex-start;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
 }
 
 /* Responsiveness styles*/
